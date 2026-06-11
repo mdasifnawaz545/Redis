@@ -4,14 +4,14 @@
     "description": "A simple Redis cache database implementation.",
     "private": true,
     "type": "module",
-    "scripts" : {
+    "scripts": {
         "start": "node src/index.js"
     },
-
     "dependencies": {
-        "redis": "^4.0.0",
-        "ioredis": "^5.0.0",
+        "bullmq": "^5.78.0",
         "express": "^4.17.1",
-        "mongoose": "^5.12.3"
+        "ioredis": "^5.0.0",
+        "mongoose": "^5.12.3",
+        "redis": "^4.0.0"
     }
 }
